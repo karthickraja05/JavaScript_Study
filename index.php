@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Test</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<button type="button" id="button">Click</button>
+	<div id="output"></div>
+</body>
+</html>
+<!-- <script type="text/javascript" src="object.js"></script> -->
+<!-- <script type="text/javascript" src="objectRef.js"></script> -->
+<!-- <script type="text/javascript" src="objectConstructor.js"></script> -->
+<!-- <script type="text/javascript" src="optionalChaining.js"></script> -->
+<!-- <script type="text/javascript" src="Symbol.js"></script> -->
+<script type="text/javascript" src="objPrimitive.js"></script>
