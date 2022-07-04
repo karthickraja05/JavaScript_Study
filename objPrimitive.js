@@ -1,5 +1,5 @@
 let obj = {
-	user_name: 'Karthickraja',
+  user_name: 'Karthickraja',
 };
 
 let d = new Date();
@@ -37,12 +37,56 @@ let user = {
   }
 };
 
-// conversions demo:
-alert(user); // hint: string -> {name: "John"}
-alert(+user); // hint: number -> 1000
-alert(user + 500); // hint: default -> 1500
+let user1 = {
+  name: 'Kar',
+  valueOf() {
+     return this.name.length;
+  }
+};
 
-console.log(user);
+let user2 = {
+  name: 'Ka',
+  valueOf() {
+     return this.name.length;
+  }
+}
+var test = 'false';
+if(test){
+  // console.log('this1');
+}
+// console.log(true);
+// console.log(user1 / user2);
+
+
+// test: for (var i = 0; i < 5; i++) {
+  
+//   for (var j = 0; j < 5; j++) {
+//     if(i == 3 && j == 3){
+//       break test;
+//     }
+//     console.log('this');
+//   }
+// }
+
+if (!Math.anand) { // if no such function
+  // implement it
+  Math.anand = function() {
+    // Math.ceil and Math.floor exist even in ancient JavaScript engines
+    // they are covered later in the tutorial
+    return 'Anand';
+  };
+}
+
+
+console.log(Math.PI);
+console.log(Math);
+
+// conversions demo:
+// alert(user); // hint: string -> {name: "John"}
+// alert(+user); // hint: number -> 1000
+// alert(user + 500); // hint: default -> 1500
+
+// console.log(user);
 
 // let delta = date1 - date2;
 
