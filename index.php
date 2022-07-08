@@ -24,4 +24,5 @@
 <!-- <script type="text/javascript" src="optionalChaining.js"></script> -->
 <!-- <script type="text/javascript" src="Symbol.js"></script> -->
 <!-- <script type="text/javascript" src="objPrimitive.js"></script> -->
-<script type="text/javascript" src="methodsPrimitive.js"></script>
+<!-- <script type="text/javascript" src="methodsPrimitive.js"></script> -->
+<script type="text/javascript" src="test.js"></script>
