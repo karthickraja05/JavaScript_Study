@@ -9,6 +9,13 @@
 <body>
 	<button type="button" id="button">Click</button>
 	<div id="output"></div>
+	<?php
+	$test = 'raja';
+	echo $test;
+	echo "<br/>";
+	$test[0] = 'R';
+	echo $test;
+	?>
 </body>
 </html>
 <!-- <script type="text/javascript" src="object.js"></script> -->
@@ -16,4 +23,5 @@
 <!-- <script type="text/javascript" src="objectConstructor.js"></script> -->
 <!-- <script type="text/javascript" src="optionalChaining.js"></script> -->
 <!-- <script type="text/javascript" src="Symbol.js"></script> -->
-<script type="text/javascript" src="objPrimitive.js"></script>
+<!-- <script type="text/javascript" src="objPrimitive.js"></script> -->
+<script type="text/javascript" src="methodsPrimitive.js"></script>

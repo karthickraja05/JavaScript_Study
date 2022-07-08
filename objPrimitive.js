@@ -78,8 +78,8 @@ if (!Math.anand) { // if no such function
 }
 
 
-console.log(Math.PI);
-console.log(Math);
+// console.log(Math.PI);
+// console.log(Math);
 
 // conversions demo:
 // alert(user); // hint: string -> {name: "John"}
@@ -92,3 +92,25 @@ console.log(Math);
 
 // // less/greater comparison
 // let greater = user1 > user2;
+
+
+var testMy = {
+  name: 'Karthickraja',
+  valueOf() {
+     return this.name;
+  },
+  toString(){
+    return this.name;
+  }
+}
+
+var str1 = 'karthi';
+
+str1.__proto__.test = function(){
+  this1 = new String("foo");
+  console.log(this);
+  // this[[PrimitiveValue]] = 'yes';
+  return this1;
+}
+
+console.log(str1);
