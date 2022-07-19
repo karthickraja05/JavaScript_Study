@@ -8,13 +8,13 @@
 </head>
 <body>
 	<button type="button" id="button">Click</button>
-	<div id="output"></div>
+	<div id="output" style="font-size: 100px;"></div>
 	<?php
-	$test = 'raja';
-	echo $test;
-	echo "<br/>";
-	$test[0] = 'R';
-	echo $test;
+	// $test = 'raja';
+	// echo $test;
+	// echo "<br/>";
+	// $test[0] = 'R';
+	// echo $test;
 	?>
 </body>
 </html>
