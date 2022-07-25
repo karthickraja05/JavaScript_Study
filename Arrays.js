@@ -26,7 +26,7 @@ let arr = [ 'Apple', { name: 'John' }, true, function() { console.log('Hello Man
 console.log(arr[1].name);
 
 // get the function at index 3 and run it
-arr[3](); 
+console.log(arr[3]());; 
 
 
 // console.log('How are you, Whats Up???');
