@@ -3,12 +3,18 @@
 let fruits = ['Apple','Orange','Banana'];
 let fruits1 = ['Apple','Orange','Banana'];
 
-if (!fruits.__proto__.at) { 
-  fruits.__proto__.at = function(number) {
+if (!fruits.__proto__.reverseVal) { 
+  fruits.__proto__.reverseVal = function(number) {
   	if(number < 0){
   		number = this.length - Math.abs(number); 
   	}
     return this[number];
+  };
+}
+
+if (!fruits.__proto__.valueOf1) { 
+  fruits.__proto__.valueOf1 = function() {
+    return '56';
   };
 }
 
@@ -52,8 +58,99 @@ fruits.push('3223');
 // console.log(fruits);
 
 
-for (let key in test1) {
-  console.log(key);
-  console.log( test1[key] ); // Apple, Orange, Pear
+// for (let key in test1) {
+//   console.log(key);
+//   console.log( test1[key] ); // Apple, Orange, Pear
+// }
+
+fruits12 = ["Apple", "Orange", "Plum"];
+fruits12.age1 = 35; // create a property with an arbitrary name
+// iterates over array elements
+for (let fruit of fruits12) {
+  // console.log( fruit );
 }
 
+// console.log( [] + 1 ); // "1"
+// console.log( [1] + 1 ); // "11"
+// console.log( [1,2,3,4] + 1 ); // "1,21"
+
+// console.log(0 == '');
+// console.log('0' == '');
+// console.log('' == 0);
+// console.log('0' == 0);
+// console.log('1' == 1);
+
+let test4 = [1,23,5];
+let test5 = [1,23,9];
+
+test5.Karthi = 'sdlsdl';
+
+
+// console.log(test4.valueOf());
+// console.log(test5);
+
+// console.log(test5);
+
+let user = ['karthi'];
+let user2 = user;
+
+// console.log(user2 === user);
+user.push('sdsd');
+// console.log(user2 === user);
+// console.log(user);
+// console.log(user2);
+
+// Create an array styles with items “Jazz” and “Blues”.
+// Append “Rock-n-Roll” to the end.
+// Replace the value in the middle by “Classics”. Your code for finding the middle value should work for any arrays with odd length.
+// Strip off the first value of the array and show it.
+// Prepend Rap and Reggae to the array.
+
+function task2(){
+  let styles = ['Jazz', 'Blues'];
+  styles.push('Rock-n-Roll');
+
+  let middle_index = Math.ceil(styles.length / 2);
+  styles[middle_index] = 'Classics';
+  styles.shift();
+  console.log(styles);
+  styles.unshift('Rap', 'Reggae');
+  console.log(styles);
+
+}
+
+// task2();
+
+function task3(){
+  let arr = ["a", "b"];
+
+  arr.push(function() {
+    console.log(this);
+  });
+
+  arr[2](); // ?
+}
+
+// task3();
+
+function sumInput(){
+  let sum = [];
+  while(true){
+    let number = prompt('Enter Add Number');
+    if(number == null){
+      break;
+    }
+    number = +number;
+    if(isNaN(number)){
+      break;
+    }
+    sum.push(number);
+    
+  }
+  let sum_val = sum.reduce((pre,cur)=>pre+cur,0);
+  console.log(sum);
+  console.log(sum_val);
+  
+}
+
+sumInput();
