@@ -65,7 +65,6 @@ function voterResults(arr) {
 
    },result);
 
-   return result;
 }
 
 console.log(voterResults(voters)); 
