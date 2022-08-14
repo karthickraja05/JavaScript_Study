@@ -28,4 +28,5 @@
 <!-- <script type="text/javascript" src="methodsPrimitive.js"></script> -->
 <!-- <script type="text/javascript" src="test.js"></script> -->
 <!-- <script type="text/javascript" src="String.js"></script> -->
-<script type="text/javascript" src="Arrays.js"></script>
+<!-- <script type="text/javascript" src="Arrays.js"></script> -->
+<script type="text/javascript" src="reduceMethodProblem.js"></script>
