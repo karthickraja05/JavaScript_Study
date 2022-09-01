@@ -9,6 +9,7 @@
 <body>
 	<button type="button" id="button">Click</button>
 	<div id="output" style="font-size: 100px;"></div>
+	
 	<?php
 	// $test = 'raja';
 	// echo $test;
