@@ -7,6 +7,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+	<input type='text' id="search"	>
 	<button type="button" id="button">Click</button>
 	<div id="output" style="font-size: 100px;"></div>
 	
@@ -31,4 +32,6 @@
 <!-- <script type="text/javascript" src="String.js"></script> -->
 <!-- <script type="text/javascript" src="Arrays.js"></script> -->
 <!-- <script type="text/javascript" src="reduceMethodProblem.js"></script> -->
-<script type="text/javascript" src="promise.js"></script>
+<!-- <script type="text/javascript" src="promise.js"></script> -->
+<!-- <script type="text/javascript" src="asyncAwait.js"></script> -->
+<script type="text/javascript" src="optimiseApiCall.js"></script>
