@@ -20,9 +20,9 @@ class LinkedList {
         }
     }
     asort() {
-        
+        let i = 0;
         while(true){
-            
+            i++;
             let current = this.head;
             let nextObject = current.next;
             let first = null;
@@ -32,10 +32,9 @@ class LinkedList {
                 if(nextObject === null){
                     break;
                 }
-                // console.log(current,nextObject);
 
                 // Change Here For Asort or Dsort
-                if(current.data < nextObject.data){
+                if(current.data > nextObject.data){
                     let temp = nextObject.next;
                     current.next = temp;
                     if(prev === null){
@@ -64,6 +63,10 @@ class LinkedList {
                     break;
                 }
                 
+            }
+            if(i === 5){
+                console.log(swap)
+                break;
             }
             this.head = first;
             if(swap === 0){
