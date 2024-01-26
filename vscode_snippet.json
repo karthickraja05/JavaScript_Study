@@ -1,0 +1,28 @@
+{
+	"console.log": {
+		"prefix": "cs",
+		"body": [
+		  "console.log();"
+		],
+		"description": "console.log"
+	},
+	"trycatchjs": {
+		"prefix": "trc",
+		"body": [
+		  "try{",
+		  "",
+		  "}catch(err){",
+		  "  console.log(err);",
+		  "  throw new Error('Failed');",
+		  "}"
+		],
+		"description": "trycatchjs"
+	  },
+	  "error": {
+		"prefix": "er",
+		"body": [
+		  "throw new Error('Failed');"
+		],
+		"description": "error"
+	  }
+}
