@@ -126,7 +126,13 @@ var users = [
             amount: 1500,
             name: 'Deiva',
             by: 4,
-      }
+      },
+      {
+            id: 6,
+            amount: 1500,
+            name: 'Pravin',
+            by: 3,
+      },
 ]
 
 for(let i in users){
